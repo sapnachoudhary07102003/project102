@@ -16,9 +16,9 @@ for val in content:
 
     if ext in ['.gif', '.png', '.jpg', '.jpeg','.jfif']:
 
-        path1 = source + '/' + destination
-        path2 = destination + '/' + "ImageFiles"  
-        path3 = destination + '/' + "Image_Files" + '/' + val 
+        path1 = source +'/'+"file-name"
+        path2 = destination + '/' + "shift"  
+        path3 = destination + '/' + "shift" + '/' + "file-name" 
 
         if os.path.exists(path2):
           print("Moving " + val + ".....")
